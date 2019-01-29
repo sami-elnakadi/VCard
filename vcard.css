@@ -1,0 +1,34 @@
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #046380;
+    color:#EFECCA;
+}
+
+h1{
+    color:#A7A37E;
+}
+
+h2{
+    color:#E6E2AF;
+}
+
+.descri{
+    list-style: none;
+}
+mark{
+    background-color: #002F2F;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #375D81;
+ 
+}
+
+.pp{
+    width: 50%;
+    height: auto;
+}
