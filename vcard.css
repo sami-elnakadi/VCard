@@ -1,3 +1,8 @@
+main{
+
+    margin: 5% 5% 5% 5%;
+}
+
 .titre{
     display: flex;
     flex-direction: row;
@@ -37,7 +42,7 @@ mark{
 .flip-card {
     background-color: transparent;
     width: 1300px;
-    height: 200px;
+    height: 300px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
 }
@@ -63,6 +68,7 @@ mark{
             color: black;
         }
  .flip-card-back {
+            margin-top: -190px;
             background-color: dodgerblue;
             color: black;
             transform: rotateY(180deg);
